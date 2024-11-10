@@ -328,3 +328,44 @@ section {
 .dark-mode .hover-text {
   color: #00ffff;
 }
+body {
+  color: white;
+  background-image: url("background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+.login-container {
+  max-width: 400px;
+  margin: auto;
+  padding: 30px;
+  border-radius: 10px;
+  background-color: rgba(255, 81, 0, 0.692);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  margin-top: 100px;
+  color: white;
+}
+h2 {
+  margin-bottom: 20px;
+  color: #ffffff;
+}
+.form-group {
+  position: relative;
+}
+.form-control {
+  padding-left: 40px;
+}
+.form-control-icon {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  color: #00d9ff;
+}
+.btn-primary {
+  background-color: #00d9ff;
+  border-color: #00d9ff;
+}
+.btn-primary:hover {
+  background-color: #00a8c5;
+  border-color: #008fa8;
+}
