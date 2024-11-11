@@ -338,7 +338,9 @@ section {
   border-radius: 5px;
   display: inline-block;
 }
-
+footer.div {
+  display: inline;
+}
 .buy-button:hover {
   background-color: #d35400;
 }
@@ -362,5 +364,6 @@ section {
   line-height: 1.6;
 }
 .me-3 {
-  width: 40px;
+  width: 75px;
+  height: 75px;
 }

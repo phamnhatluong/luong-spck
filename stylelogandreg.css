@@ -87,6 +87,7 @@ body {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
 }
 .dark-mode {
+  background-image: url(background.jpg);
   background-color: black;
   color: white !important;
 }
@@ -330,7 +331,7 @@ section {
 }
 body {
   color: white;
-  background-image: url("background.jpg");
+  background-image: url(img/ai.jfif);
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
