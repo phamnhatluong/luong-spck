@@ -18,7 +18,9 @@ section {
 footer {
   background-color: #f6412e;
 }
-
+#iconToggle {
+  padding: 10px;
+}
 body {
   background-color: rgb(255, 255, 255);
   transition: all 0.3 ease;

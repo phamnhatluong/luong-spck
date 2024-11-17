@@ -338,6 +338,9 @@ section {
   border-radius: 5px;
   display: inline-block;
 }
+#iconToggle {
+  padding: 10px;
+}
 footer.div {
   display: inline;
 }
