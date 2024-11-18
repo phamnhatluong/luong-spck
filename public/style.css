@@ -44,9 +44,6 @@ footer.div {
 .hover-text {
   transition: all 0.3s ease;
 }
-#iconToggle {
-  padding: 10px;
-}
 .hover-text:hover {
   color: rgb(0, 204, 255) !important;
   cursor: pointer;
