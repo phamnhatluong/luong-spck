@@ -63,6 +63,7 @@ footer.div {
 }
 #home {
   color: #ffffff !important;
+  background-color: #f6412e !important;
 }
 body {
   transition: background-color 0.5s;
