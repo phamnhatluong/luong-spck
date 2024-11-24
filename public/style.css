@@ -48,6 +48,7 @@ footer.div {
   color: rgb(0, 204, 255) !important;
   cursor: pointer;
 }
+
 .hover-text2 {
   transition: all 0.3s ease;
   color: black;
@@ -149,6 +150,7 @@ progress::-webkit-progress-value {
 }
 .row {
   display: flex;
+  align-items: stretch;
 }
 
 .card-body {
@@ -164,6 +166,9 @@ progress::-webkit-progress-value {
   .navbar-expand-lg .navbar-nav .nav-link {
     padding: 0.5rem 1rem;
   }
+}
+.navbar-toggler-icon {
+  background-color: #f6412e !important;
 }
 body {
   background-color: rgb(255, 255, 255);
@@ -240,8 +245,8 @@ ul {
 }
 
 .main {
-  margin-left: 22%;
-  margin-right: 22%;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 footer {
@@ -321,4 +326,17 @@ section {
 
 .dark-mode .hover-text {
   color: #00ffff;
+}
+#chat-bot-launcher-container {
+  display: flex;
+  bottom: 9% !important;
+}
+.col {
+  display: flex;
+  justify-content: space-around;
+}
+#Phone,
+#PC,
+#accessory {
+  margin: 20px;
 }
